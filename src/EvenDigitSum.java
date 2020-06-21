@@ -12,7 +12,7 @@ public class EvenDigitSum {
 
         while (number > 0){
             numCheck = number % 10;
-            //to check if even number
+            //to check even number
             if (numCheck % 2 == 0){
                 evenNumSum += numCheck;
             }
